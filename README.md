@@ -1,36 +1,36 @@
-# 🌍 Translator
+# 📝 Note App
 
-Une application de traduction facile à utiliser qui permet aux utilisateurs de traduire du texte entre plusieurs langues. Avec une interface simple et intuitive, l'application offre des fonctionnalités pratiques telles que la lecture audio et la copie rapide du texte.
+Une application de prise de notes simple et efficace qui permet aux utilisateurs de formater et styliser du texte directement dans une interface intuitive. Cette application offre plusieurs fonctionnalités de personnalisation comme le changement de police, de taille, et des options de formatage avancées pour améliorer la prise de notes.
 
 ## 🎨 Aperçu
 
-L'application **Translator** permet de traduire du texte instantanément entre différentes langues. Elle propose également des options pour lire le texte traduit à haute voix et copier facilement le texte dans le presse-papiers.
+L'application **Note App** vous permet de rédiger des notes en utilisant différentes polices et styles de texte, avec des options de formatage variées pour personnaliser vos documents. Vous pouvez également modifier la couleur de texte et de fond pour une expérience utilisateur encore plus riche.
 
-![Translator Screenshot](https://your-screenshot-url.com)
+![Note App Screenshot](https://your-screenshot-url.com)
 
 ## 🚀 Fonctionnalités
 
-- **Traduction instantanée** : Traduisez du texte entre plusieurs langues en un seul clic.
-- **Échange de langues** : Inversez facilement la langue source et la langue cible.
-- **Lecture audio** : Écoutez le texte d'origine ou traduit avec la synthèse vocale.
-- **Copie rapide** : Copiez le texte d'origine ou traduit en un clic.
-- **Sélection des langues** : Choisissez parmi un large éventail de langues.
-- **Interface utilisateur fluide** : Design simple et épuré, adapté à tous les utilisateurs.
+- **Formatage du texte** : Appliquez des styles tels que le gras, le souligné, le subscript et le superscript.
+- **Gestion des polices** : Choisissez parmi une liste variée de polices et ajustez la taille selon vos besoins.
+- **Alignement du texte** : Alignez vos textes à gauche, au centre, à droite ou justifiez-les.
+- **Couleur personnalisée** : Sélectionnez les couleurs de police et de fond pour vos notes.
+- **Listes ordonnées et non ordonnées** : Ajoutez facilement des listes numérotées ou à puces.
+- **Undo / Redo** : Fonctionnalités pour annuler ou refaire des actions.
+- **Insertion de liens** : Ajoutez et retirez des hyperliens dans vos notes.
 
 ## 🛠️ Technologies
 
-- **React.js** : Librairie JavaScript pour la création de l'interface utilisateur.
-- **CSS3** : Pour la mise en page et le style de l'application.
-- **MyMemory Translated API** : Utilisée pour obtenir les traductions en temps réel.
-- **Web Speech API** : Pour la synthèse vocale (lecture audio).
+- **React.js** : Utilisé pour construire l'interface utilisateur réactive.
+- **CSS3** : Pour la mise en page élégante et responsive.
+- **Font Awesome** : Pour les icônes de mise en forme.
 
 ## 📦 Installation
 
 1. **Cloner le projet :**
 
    ```bash
-   git clone https://github.com/votre-utilisateur/translator-app.git
-   cd translator-app
+   git clone https://github.com/votre-utilisateur/note-app.git
+   cd note-app
    ```
 
 2. **Installer les dépendances :**
@@ -50,12 +50,13 @@ L'application **Translator** permet de traduire du texte instantanément entre d
 
 ## 📖 Utilisation
 
-- **Saisie du texte** : Saisissez le texte à traduire dans le champ de texte de gauche.
-- **Sélection des langues** : Choisissez la langue source et la langue cible dans les menus déroulants.
-- **Traduction** : Cliquez sur "Translate Text" pour obtenir la traduction.
-- **Écoute du texte** : Cliquez sur l'icône du haut-parleur pour écouter le texte d'origine ou traduit.
-- **Copie du texte** : Utilisez l'icône de copie pour copier le texte dans le presse-papiers.
-- **Échange des langues** : Inversez la langue source et la langue cible en un clic grâce à l'icône d'échange.
+- **Saisie de texte** : Cliquez sur la zone de texte pour commencer à écrire.
+- **Formatage du texte** : Utilisez la barre d'outils pour appliquer les styles (gras, italique, listes, etc.).
+- **Modification de la police** : Sélectionnez une police dans le menu déroulant pour l'appliquer à votre texte.
+- **Changement de la taille de police** : Ajustez la taille du texte avec les options disponibles.
+- **Couleur de texte et de fond** : Cliquez sur les sélecteurs de couleur pour personnaliser votre texte et votre fond.
+- **Insertion de liens** : Cliquez sur l'icône de lien, entrez une URL et insérez-la dans le texte.
+- **Annuler/Refaire** : Utilisez les boutons pour annuler ou refaire des actions récentes.
 
 ## 🗂 Structure du projet
 
@@ -63,11 +64,11 @@ L'application **Translator** permet de traduire du texte instantanément entre d
 /public
   index.html              # Page HTML principale
 /src
-  /components             # Composants React (ex. : Countries.jsx)
+  /components             # Composants React (par ex. : Toolbar.js, Editor.js)
   App.js                  # Composant principal de l'application
-  App.css                 # Style de l'application
+  App.css                 # Styles principaux
   index.js                # Point d'entrée de React
-  index.css               # Style des tout les composants
+  index.css               # Styles globaux
 ```
 
 ## 🎥 Démo
@@ -76,7 +77,7 @@ Regardez une démo en direct de l'application [ici](https://your-demo-url.com) !
 
 ## 🤝 Contributions
 
-Les contributions sont les bienvenues ! Si vous souhaitez améliorer cette application ou ajouter de nouvelles fonctionnalités, veuillez suivre ces étapes :
+Les contributions sont les bienvenues ! Si vous souhaitez ajouter des fonctionnalités ou corriger des bugs, suivez les étapes suivantes :
 
 1. Fork le projet.
 2. Créez une nouvelle branche (`git checkout -b feature/new-feature`).
